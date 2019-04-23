@@ -1,0 +1,19 @@
+pipeline {
+  agent any
+  stages{
+   stage ('Acceptance Tests')
+    {
+      steps{
+        script {
+          try {
+            sh 'docker build -t animacr/automacao_ruby:1.0.0 .'
+            sh 'docker run --rm --name automacao_ruby -v /var/lib/jenkins/workspace/automacao_ruby:/app/features animacr/automacao_ruby:1.0.0'
+          } catch (e) {
+              currentBuild.result = 'FAILURE'
+              throw e
+          }
+        }
+      }
+    }
+  }
+}

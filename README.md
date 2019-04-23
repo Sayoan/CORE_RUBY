@@ -6,7 +6,7 @@
 * Instalar o [ChromeDriver](http://chromedriver.chromium.org/downloads)
 * Configurar o ChromeDriver no path do computador
 
-Para um melhor detalhamento dos passos acimo leio este [DOCUMENTO DE INSTALAÇÕES](https://docs.google.com/document/d/11T9FQ82sPHUYC8Wsi19V17XwAKpAurZzLqjDS7V0UWc/edit?usp=sharing)
+Para melhor detalhamento dos passos acima leia este [DOCUMENTO DE INSTALAÇÕES](https://docs.google.com/document/d/11T9FQ82sPHUYC8Wsi19V17XwAKpAurZzLqjDS7V0UWc/edit?usp=sharing)
 
 
 ## Comandos relevantes
